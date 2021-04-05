@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\codeworks\\student-workbook\\csharp\\rpscissors\\rpscissors.csproj",
+      "projectUniqueName": "C:\\source\\codeworks\\csharp\\rpscissors\\rpscissors.csproj",
       "projectName": "rpscissors",
-      "projectPath": "C:\\source\\codeworks\\student-workbook\\csharp\\rpscissors\\rpscissors.csproj",
+      "projectPath": "C:\\source\\codeworks\\csharp\\rpscissors\\rpscissors.csproj",
       "packagesPath": "C:\\Users\\coley\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\codeworks\\student-workbook\\csharp\\rpscissors\\obj\\",
+      "outputPath": "C:\\source\\codeworks\\csharp\\rpscissors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\coley\\AppData\\Roaming\\NuGet\\NuGet.Config"
