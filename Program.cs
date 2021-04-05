@@ -8,9 +8,16 @@ namespace rpscissors
         {
             // Console.WriteLine("Hello World!");
 
+            string[] choices = new string[3] { "rock", "paper", "scissors" };
+            Random choice = new Random();
+
+
+
             bool running = true;
             while (running)
             {
+                int index = choice.Next(choices.Length);
+                string PcChoice = choices[index];
                 System.Console.WriteLine(@"Would you like to play rock, paper, scissors?
                 Y / N");
                 ConsoleKeyInfo userInput = System.Console.ReadKey();
@@ -25,17 +32,33 @@ namespace rpscissors
                     (S)cissors?");
                     ConsoleKeyInfo usersInput = System.Console.ReadKey();
                     Console.Clear();
+
                     if (usersInput.Key == ConsoleKey.R)
                     {
-                        System.Console.WriteLine("You chose Rock, PC chose Rock, you tie!");
+                        if (PcChoice == "rock")
+                            System.Console.WriteLine($"You chose rock, PC chose {choices[index]}, you tie!");
+                        else if (PcChoice == "paper")
+                            System.Console.WriteLine($"You chose rock, PC chose {choices[index]}, you lose!");
+                        else if (PcChoice == "scissors")
+                            System.Console.WriteLine($"You chose rock, PC chose {choices[index]}, you win!");
                     }
                     else if (usersInput.Key == ConsoleKey.P)
                     {
-                        System.Console.WriteLine("You chose Paper, PC chose Rock, you win!");
+                        if (PcChoice == "rock")
+                            System.Console.WriteLine($"You chose paper, PC chose {choices[index]}, you win!");
+                        else if (PcChoice == "paper")
+                            System.Console.WriteLine($"You chose paper, PC chose {choices[index]}, you tie!");
+                        else if (PcChoice == "scissors")
+                            System.Console.WriteLine($"You chose paper, PC chose {choices[index]}, you lose!");
                     }
                     else if (usersInput.Key == ConsoleKey.S)
                     {
-                        System.Console.WriteLine("You chose Scissors, PC chose Rock, you lose!");
+                        if (PcChoice == "rock")
+                            System.Console.WriteLine($"You chose scissors, PC chose {choices[index]}, you lose!");
+                        else if (PcChoice == "paper")
+                            System.Console.WriteLine($"You chose scissors, PC chose {choices[index]}, you win!");
+                        else if (PcChoice == "scissors")
+                            System.Console.WriteLine($"You chose scissors, PC chose {choices[index]}, you tie!");
                     }
                     else
                     {
