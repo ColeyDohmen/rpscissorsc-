@@ -1,0 +1,16 @@
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.exe
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.deps.json
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.runtimeconfig.json
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.runtimeconfig.dev.json
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.dll
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\ref\rpscissors.dll
+C:\source\codeworks\student-workbook\csharp\rpscissors\bin\Debug\net5.0\rpscissors.pdb
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.csprojAssemblyReference.cache
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.AssemblyInfoInputs.cache
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.AssemblyInfo.cs
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.csproj.CoreCompileInputs.cache
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.dll
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\ref\rpscissors.dll
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.pdb
+C:\source\codeworks\student-workbook\csharp\rpscissors\obj\Debug\net5.0\rpscissors.genruntimeconfig.cache
